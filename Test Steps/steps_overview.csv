@@ -1,44 +1,9 @@
 Flow ID,Description,Test Steps,Flow Priority
-5,Verify Successful Navigation to Home Page Shipping and Category Selection Cart and Checkout Process,"step 1: Navigate to Page home
-step 2: At Page home click on hyperlink shipping --> navigate to Page shipping
-step 3: At Page shipping click on hyperlink category phone --> navigate to Page category
-step 4: At Page category click on button object
-step 5: At Page category click on hyperlink cart --> navigate to Page cart
-step 6: At Page cart click on button object --> navigate to Page checkout info
-step 7: At Page checkout info input on input r0
-step 8: At Page checkout info click on input receive marketing info
-step 9: At Page checkout info click on button object --> navigate to Page checkout shipping-address
-step 10: At Page checkout shipping-address click on span object
-step 11: At Page checkout shipping-address click on input delivery id
-step 12: At Page checkout shipping-address input on input r2
-step 13: At Page checkout shipping-address input on input r3
-step 14: At Page checkout shipping-address input on input r4
-step 15: At Page checkout shipping-address input on input r5
-step 16: At Page checkout shipping-address input on input r6
-step 17: At Page checkout shipping-address input on input r7
-step 18: At Page checkout shipping-address select on select r8
-step 19: At Page checkout shipping-address input on input r9
-step 20: At Page checkout shipping-address click on input billing address the same
-step 21: At Page checkout shipping-address input on input ra
-step 22: At Page checkout shipping-address input on input rb
-step 23: At Page checkout shipping-address input on input rc
-step 24: At Page checkout shipping-address input on input rd
-step 25: At Page checkout shipping-address input on input re
-step 26: At Page checkout shipping-address input on input rf
-step 27: At Page checkout shipping-address select on select rg
-step 28: At Page checkout shipping-address click on button object
-step 29: Add visual checkpoint at Page checkout shipping-address",High
-2,Verify Successful Navigation to Home Page and Product Apple i Phone15 New Click,"step 1: Navigate to Page home
-step 2: At Page home click on hyperlink product apple iphone new --> navigate to Page product apple-iphone-15-new
-step 3: Add visual checkpoint at Page product apple-iphone-15-new",Low
-1,Verify Successful Navigation to Home Page and Object Click,"step 1: Navigate to Page home
-step 2: At Page home click on button object
-step 3: Add visual checkpoint at Page home",Low
-4,Verify Successful Navigation to Home Page Object Click and Product Apple i Phone15 New Click,"step 1: Navigate to Page home
-step 2: At Page home click on h1 object
-step 3: At Page home click on ul object
-step 4: At Page home click on hyperlink product apple iphone new --> navigate to Page product apple-iphone-15-new
-step 5: Add visual checkpoint at Page product apple-iphone-15-new",Low
-3,Verify Successful Navigation to Home Page and Object Hover,"step 1: Navigate to Page home
-step 2: At Page home hover on li object
-step 3: Add visual checkpoint at Page home",Low
+1,Verify Page Category after Navigating to Shipping Page and Selecting Phone Category,"step 1: Navigate to Page shipping
+step 2: At Page shipping click on hyperlink category phone --> navigate to Page category
+step 3: At Page category click on button object
+step 4: Add visual checkpoint at Page category",High
+2,Verify Home Page Navigation,"step 1: Navigate to Page home
+step 2: Add visual checkpoint at Page home",Medium
+3,Verify Product Page for Apple i Phone15 New,"step 1: Navigate to Page product apple-iphone-15-new
+step 2: Add visual checkpoint at Page product apple-iphone-15-new",Trivial
