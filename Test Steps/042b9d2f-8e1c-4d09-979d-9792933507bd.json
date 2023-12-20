@@ -1,0 +1,9 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page home click on h1 object",
+        "step 3: At Page home click on ul object",
+        "step 4: At Page home click on hyperlink product apple iphone new --> navigate to Page product apple-iphone-15-new",
+        "step 5: Add visual checkpoint at Page product apple-iphone-15-new"
+    ]
+}

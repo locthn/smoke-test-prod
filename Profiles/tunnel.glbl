@@ -5,7 +5,7 @@
         <initValue>'https://locthn-ai-shop.vercel.app'</initValue>
         <name>application_domain</name>
     </GlobalVariableEntity>
-    <defaultProfile>True</defaultProfile>
+    <defaultProfile>False</defaultProfile>
     <description></description>
     <name>tunnel</name>
     <tag></tag>

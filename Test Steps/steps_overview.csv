@@ -1,9 +1,42 @@
 Flow ID,Description,Test Steps,Flow Priority
-1,Verify Page Category after Navigating to Shipping Page and Selecting Phone Category,"step 1: Navigate to Page shipping
-step 2: At Page shipping click on hyperlink category phone --> navigate to Page category
-step 3: At Page category click on button object
-step 4: Add visual checkpoint at Page category",High
-2,Verify Home Page Navigation,"step 1: Navigate to Page home
-step 2: Add visual checkpoint at Page home",Medium
-3,Verify Product Page for Apple i Phone15 New,"step 1: Navigate to Page product apple-iphone-15-new
-step 2: Add visual checkpoint at Page product apple-iphone-15-new",Trivial
+4,Verify successful navigation through checkout process Shipping Category Cart Checkout Info Shipping Address Billing Addr,"step 1: Navigate to Page home
+step 2: At Page home click on hyperlink shipping --> navigate to Page shipping
+step 3: At Page shipping click on hyperlink category phone --> navigate to Page category
+step 4: At Page category click on button object
+step 5: At Page category click on hyperlink cart --> navigate to Page cart
+step 6: At Page cart click on button object --> navigate to Page checkout info
+step 7: At Page checkout info input on input email
+step 8: At Page checkout info click on input receive marketing info
+step 9: At Page checkout info click on button object --> navigate to Page checkout shipping-address
+step 10: At Page checkout shipping-address click on input delivery id
+step 11: At Page checkout shipping-address input on input shipping address first name
+step 12: At Page checkout shipping-address input on input shipping address last name
+step 13: At Page checkout shipping-address input on input shipping address address line 1
+step 14: At Page checkout shipping-address input on input shipping address zip
+step 15: At Page checkout shipping-address input on input shipping address city
+step 16: At Page checkout shipping-address input on input shipping address state
+step 17: At Page checkout shipping-address select on select shipping address country id
+step 18: At Page checkout shipping-address input on input shipping address phone
+step 19: At Page checkout shipping-address click on input billing address the same
+step 20: At Page checkout shipping-address input on input billing address first name
+step 21: At Page checkout shipping-address input on input billing address last name
+step 22: At Page checkout shipping-address input on input billing address address line 1
+step 23: At Page checkout shipping-address input on input billing address zip
+step 24: At Page checkout shipping-address input on input billing address city
+step 25: At Page checkout shipping-address input on input billing address state
+step 26: At Page checkout shipping-address select on select billing address country id
+step 27: At Page checkout shipping-address click on button object --> navigate to Page checkout payment
+step 28: At Page checkout payment click on input payment method id
+step 29: At Page checkout payment click on button object --> navigate to Page thank-youb7802b3-606d-4e4f-ad97-e20b15f29ee3
+step 30: Add visual checkpoint at Page thank-youb7802b3-606d-4e4f-ad97-e20b15f29ee3",High
+1,Verify successful navigation to Home page and object button click,"step 1: Navigate to Page home
+step 2: At Page home click on button object
+step 3: Add visual checkpoint at Page home",Low
+2,Verify successful navigation to Home page and hover over object list item,"step 1: Navigate to Page home
+step 2: At Page home hover on li object
+step 3: Add visual checkpoint at Page home",Low
+3,Verify successful navigation to Home page click on object h1 and ul and navigate to Product Apple i Phone15 New page,"step 1: Navigate to Page home
+step 2: At Page home click on h1 object
+step 3: At Page home click on ul object
+step 4: At Page home click on hyperlink product apple iphone new --> navigate to Page product apple-iphone-15-new
+step 5: Add visual checkpoint at Page product apple-iphone-15-new",Trivial
