@@ -1,8 +1,8 @@
 import com.katalon.truetest.select.Select as Select
+import internal.GlobalVariable as GlobalVariable
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.model.FailureHandling
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -394,7 +394,7 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/checkout/payment/?(?:#.*)?(?:\\?.*)?$', tr
 
 WebUI.enhancedClick(testObj)
 
-'step 29: At Page checkout payment click on button object --> navigate to Page thank-youb7802b3-606d-4e4f-ad97-e20b15f29ee3'
+'step 29: At Page checkout payment click on button object --> navigate to Page thank-youa31dd7-cced-4849-9587-a121779e64b3'
 
 testObj = findTestObject('AI-Generated/Page_checkout_payment/button_object')
 
@@ -408,9 +408,9 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/checkout/payment/?(?:#.*)?(?:\\?.*)?$', tr
 
 WebUI.enhancedClick(testObj)
 
-'step 30: Add visual checkpoint at Page thank-youb7802b3-606d-4e4f-ad97-e20b15f29ee3'
+'step 30: Add visual checkpoint at Page thank-youa31dd7-cced-4849-9587-a121779e64b3'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Verify successful navigation through checkout process Shipping Category Cart Checkout Info Shipping Address Billing Addr_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Successful Checkout Process and Thank You Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
