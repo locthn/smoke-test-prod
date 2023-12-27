@@ -1,5 +1,5 @@
 Flow ID,Description,Test Steps,Flow Priority
-2,Verify Successful Checkout Process and Thank You Page,"step 1: Navigate to Page home
+3,Verify successful completion of checkout process on page Thank Youad63767 E36045da Adb716fd4837dda4,"step 1: Navigate to Page home
 step 2: At Page home click on hyperlink shipping --> navigate to Page shipping
 step 3: At Page shipping click on hyperlink category phone --> navigate to Page category
 step 4: At Page category click on button object
@@ -27,8 +27,17 @@ step 25: At Page checkout shipping-address input on input billing address state
 step 26: At Page checkout shipping-address select on select billing address country id
 step 27: At Page checkout shipping-address click on button object --> navigate to Page checkout payment
 step 28: At Page checkout payment click on input payment method id
-step 29: At Page checkout payment click on button object --> navigate to Page thank-youa31dd7-cced-4849-9587-a121779e64b3
-step 30: Add visual checkpoint at Page thank-youa31dd7-cced-4849-9587-a121779e64b3",High
-1,Verify Product Page for Apple i Phone15 New,"step 1: Navigate to Page home
+step 29: At Page checkout payment click on button object --> navigate to Page thank-youad63767-e360-45da-adb7-16fd4837dda4
+step 30: Add visual checkpoint at Page thank-youad63767-e360-45da-adb7-16fd4837dda4",High
+1,Verify successful navigation and product details on page Product Apple Iphone15 New,"step 1: Navigate to Page home
 step 2: At Page home click on hyperlink product apple iphone new --> navigate to Page product apple-iphone-15-new
-step 3: Add visual checkpoint at Page product apple-iphone-15-new",Low
+step 3: Navigate to Page product apple-iphone-15-new --> navigate to Page home
+step 4: At Page home click on h1 object
+step 5: At Page home click on ul object
+step 6: At Page home click on hyperlink product apple iphone new --> navigate to Page product apple-iphone-15-new
+step 7: Add visual checkpoint at Page product apple-iphone-15-new",Medium
+2,Verify successful navigation and functionality on page Home,"step 1: Navigate to Page home
+step 2: At Page home click on button object
+step 3: Navigate to Page home
+step 4: At Page home hover on li object
+step 5: Add visual checkpoint at Page home",Medium
